@@ -1,0 +1,513 @@
+html{
+scroll-behavior: smooth;
+}
+
+
+nav ul{
+list-style: none;
+display: flex;
+text-align: center;
+font-size: 17px;
+}
+
+nav ul li{
+margin: 0 10px;
+letter-spacing: 2px;
+}
+
+nav ul li a{
+color: #fff;
+text-decoration: none;
+font-weight: 800;
+padding: 8px 10px;
+border-radius: 5px;
+transition: all 0.4s ease;
+}
+
+nav ul li a:hover{
+background-color: white;
+color: black;
+}
+
+
+
+.my-intro{
+background-image: url('https://images.pexels.com/photos/1420709/pexels-photo-1420709.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+background-repeat: no-repeat;
+background-size: cover;
+height: 650px;
+width: 100%;
+color: white!important;
+padding: 180px;
+position: relative;
+text-align: center;
+}
+
+.name-title{
+text-shadow: 5px 0px 7px black;
+font-family: Arial Black;
+font-size: 50px;
+text-decoration: underline;
+margin-top: 80px;
+}
+
+
+.short-intro{
+margin-top: 50px;
+}
+
+
+
+
+#click{
+display:none;
+}
+
+nav .menu-btn i{
+color: white;
+display: none;
+cursor: pointer;
+font-size: 25;
+}
+
+
+
+a{
+color: white;
+}
+
+.button1{
+background-color: none;
+border: 1px solid black;
+box-shadow: 0px 2px #cfcfd1;
+margin-top: 40px!important;
+}
+
+.button1:hover{
+box-shadow: 2px 5px 7px black;
+}
+
+.education{
+background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+padding: 5em 0;
+}
+
+.time-main{
+margin-top: 3em;
+}
+
+/*
+ul.year{
+text-align: right;
+margin-left: 13em;
+
+}
+
+ul.year li{
+list-style: none;
+margin-top: 30px;
+font-size: 1em;
+color: #fff;
+text-align: center;
+background: #1b242f;
+padding: 11px 0;
+display: block;
+width: 60%;
+}
+
+ul.year li:nth-child(2){
+margin-top: 110px;
+}
+
+ul.year li:nth-child(3){
+margin-top: 129px;
+}
+*/
+.timeline{
+position: relative;
+padding: 10px 0 10px;
+list-style: none;
+}
+
+.timeline:before{
+top: 0;
+bottom: 0;
+position: absolute;
+content: " ";
+width: 1px;
+left: -9px;
+background: #ccc;
+margin-right: -1.5px;
+}
+
+.timeline > li{
+margin-bottom: 10px;
+position: relative;
+}
+
+.timeline > li:before,
+.timeline > li:after{
+content: " ";
+display: table;
+}
+
+.timeline > li:after{
+clear: both;
+}
+
+.timeline > li > .timeline-panel{
+width: calc(100% - 75px);
+float: right;
+border: 1px solid #d4d4d4;
+padding: 15px 15px;
+position: relative;
+-webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+background: #fff;
+border-bottom: 5px solid #00a78e;
+}
+
+
+h4.timeline-title{
+margin: 0;
+padding: 5px 0;
+color: #333;
+font-weight: 600;
+}
+
+.timeline-body p{
+color: #777;
+padding: 0;
+margin: 0;
+font-size: 0.9em;
+line-height: 1.9em;
+}
+
+.timeline-badge.info{
+background-color: #44c7f4 !important;
+}
+
+
+.timeline > li > .timeline-panel:before {
+  position: absolute;
+  top: 18px;
+  left: -15px;
+  display: inline-block;
+  border-top: 15px solid transparent;
+  border-right: 15px solid #ccc;
+  border-left: 0 solid #ccc;
+  border-bottom: 15px solid transparent;
+  content: " ";
+}
+
+.timeline > li > .timeline-panel:after {
+  position: absolute;
+  top:19px;
+  left: -14px;
+  display: inline-block;
+  border-top: 14px solid transparent;
+  border-right: 14px solid #fff;
+  border-left: 0 solid #fff;
+  border-bottom: 14px solid transparent;
+  content: " ";
+}
+
+
+.footer{
+text-align:center;
+color: white;
+padding: 5em 0;
+}
+
+
+
+.self-box{
+
+width: 350px;
+height: 250px;
+background-color: white;
+opacity: 1.0;
+box-shadow: 3px 5px 7px grey;
+float:right;
+color: white!important;
+}
+
+
+#img1{
+height: 65px;
+width: 65px;
+position: relative;
+
+}
+
+
+
+
+
+.button2{
+text-align: center;
+}
+
+.copyright p{
+color: #fff;
+font-size: 0.9em;
+line-height: 1.9em;
+}
+
+
+
+ul.social-icons{
+display: block;
+padding: 1.3em 0;
+margin: 0;
+text-align: center;
+
+}
+
+.social-icons li{
+display: inline-block;
+margin: 1%;
+}
+
+
+.skill{
+background-color: white;
+!background-image: -webkit-linear-gradient(0deg, #f2661b 0%, #04c20d 100%);
+padding: 5em 0;
+}
+
+.column {
+height: 250px;
+width: 250px;
+float: left;
+background-color: white;
+box-shadow: 0px 0px 15px #cfcfd1;
+}
+
+
+.column:hover{
+box-shadow: 0px 0px 15px aqua;
+}
+
+
+
+
+
+
+/*media query for mobile devices */
+
+
+
+
+@media screen and (max-width: 425px){
+
+nav .menu-btn i{
+display: block;
+}
+
+#click:checked ~ .menu-btn i:before{
+content: "\f00d";
+}
+
+#abhi{
+margin-top: 15px;
+}
+
+nav ul{
+position: fixed;
+top: 60px;
+left: -100%;
+background: black;
+height: 100vh;
+width: 100%;
+display: block;
+text-align: center;
+transition: all 0.5s ease;
+}
+
+nav ul li a:after{
+left: -100%;
+}
+
+
+#click:checked ~ ul{
+left: 0%;
+}
+
+
+nav ul li{
+margin: 35px 0;
+}
+
+
+nav ul li a{
+font-size: 20px;
+background-color: none;
+}
+
+nav ul li a:hover{
+color: cyan;
+}
+
+nav ul li a:checked ~ ul{
+left: -100%;
+}
+
+.my-intro{
+height: 500px;
+width: 100%;
+padding: 5px 5px;
+position: relative;
+font-size: 10px;
+
+}
+
+.name-title{
+font-size: 35px;
+margin-top: 125px;
+}
+
+.short-intro{
+font-size: 15px;
+margin-top: 25px;
+letter-spacing: 0px!important;
+}
+
+
+.column{
+margin: 10px;
+}
+
+
+.footer{
+background-color: black;
+height: 1290px!important;
+}
+
+}
+
+
+
+/*media query for tablet devices*/
+
+
+
+@media screen and (min-width: 425px) and (max-width:800px){
+
+nav .menu-btn i{
+display: block;
+}
+
+#click:checked ~ .menu-btn i:before{
+content: "\f00d";
+}
+
+#abhi{
+margin-top: 15px;
+}
+
+nav ul{
+position: fixed;
+top: 60px;
+left: -100%;
+background: black;
+height: 100vh;
+width: 100%;
+display: block;
+text-align: center;
+transition: all 0.5s ease;
+}
+
+nav ul li a:after{
+left: -100%;
+}
+
+
+#click:checked ~ ul{
+left: 0%;
+}
+
+
+nav ul li{
+margin: 35px 0;
+}
+
+
+nav ul li a{
+font-size: 20px;
+background-color: none;
+}
+
+nav ul li a:hover{
+color: cyan;
+}
+
+nav ul li a:checked ~ ul{
+left: -100%;
+}
+
+
+.footer{
+background-color: black;
+
+}
+
+.name-title{
+font-size: 40px;
+margin-top: 125px;
+}
+
+.short-intro{
+margin-top: 25px;
+}
+
+
+.my-intro{
+height: 500px;
+width: 100%;
+padding: 5px 5px;
+position: relative;
+
+}
+
+
+
+.column{
+padding: 10px 10px;
+margin-top: 30px;
+}
+
+}
+
+
+@media screen and (min-width:800px) and (max-width: 1024px){
+
+.column{
+margin-top: 30px;
+padding: 10px 10px;
+}
+
+.short-intro{
+margin-top: 35px;
+}
+
+
+.my-intro{
+height: 500px;
+width: 100%;
+padding: 5px 5px;
+position: relative;
+
+}
+
+.name-title{
+margin-top: 170px;
+font-size: 50px
+}
+
+
+}
+
+
+
+
