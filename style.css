@@ -67,7 +67,7 @@ nav .menu-btn i{
 color: white;
 display: none;
 cursor: pointer;
-font-size: 25;
+font-size: 25px;
 }
 
 
@@ -303,10 +303,12 @@ box-shadow: 0px 0px 15px aqua;
 
 nav .menu-btn i{
 display: block;
+margin-right: 50px;
 }
 
 #click:checked ~ .menu-btn i:before{
 content: "\f00d";
+font-size: 25px;
 }
 
 #abhi{
@@ -319,7 +321,7 @@ top: 60px;
 left: -100%;
 background: black;
 height: 100vh;
-width: 100%;
+width: 85%;
 display: block;
 text-align: center;
 transition: all 0.5s ease;
@@ -336,20 +338,20 @@ left: 0%;
 
 
 nav ul li{
-margin: 35px 0;
+margin: 25px 0;
 }
 
 
 nav ul li a{
 font-size: 20px;
-background-color: none;
 }
 
 nav ul li a:hover{
-color: cyan;
+color: aqua;
+background-color: transparent!important;
 }
 
-nav ul li a:checked ~ ul{
+nav ul li a:checked ~ nav ul{
 left: -100%;
 }
 
@@ -396,6 +398,7 @@ height: 1290px!important;
 
 nav .menu-btn i{
 display: block;
+margin-right: 80px;
 }
 
 #click:checked ~ .menu-btn i:before{
@@ -412,7 +415,7 @@ top: 60px;
 left: -100%;
 background: black;
 height: 100vh;
-width: 100%;
+width: 88%;
 display: block;
 text-align: center;
 transition: all 0.5s ease;
@@ -439,7 +442,8 @@ background-color: none;
 }
 
 nav ul li a:hover{
-color: cyan;
+color: aqua;
+background-color: transparent!important;
 }
 
 nav ul li a:checked ~ ul{
